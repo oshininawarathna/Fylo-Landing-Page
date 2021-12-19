@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+.access__row {
+  background-color: var(--DesaturatedBlue);
+}
+.footer__row {
+  background-color: var(--VeryDarkBlue);
+}
+.footer__text {
+  color: var(--LightGrayishBlue);
+}
+.footer__list {
+  list-style: none;
+}
+.footer__list a {
+  color: var(--LightGrayishBlue);
+  text-decoration: none;
+}
+.footer__list a:hover {
+  color: var(--BrightBlue);
+}
+.access__text {
+  color: var(--LightGrayishBlue);
+}
+.card__link {
+  color: var(--ModerateCyan);
+}
+.card__link:hover {
+  color: var(--ModerateCyan);
+}
+.paragraph__text {
+  font-size: 0.8rem;
+}
+.card-text {
+  font-size: 0.8rem;
+}
